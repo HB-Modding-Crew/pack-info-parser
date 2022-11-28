@@ -1,0 +1,49 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    // Full command: python3 main.py repair -p "./tests/Testpack.zip"
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Repair",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [
+                "repair",
+                "-p",
+                "./tests/HBCubemonde30-09-2022.zip"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "profile Repair",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [
+                "repair",
+                "-p",
+                "./tests/HBCubemonde30-09-2022.zip",
+                "--profile"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Analyse",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [
+                "analyse",
+                "-p",
+                "./tests/HBCubemonde30-09-2022.zip"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

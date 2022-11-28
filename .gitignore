@@ -1,0 +1,7 @@
+*.log
+extracts/*
+!/extracts/.gitkeep
+*.zip
+config/config.json
+.python-version
+__pycache__
