@@ -2,12 +2,13 @@ from dataclasses import dataclass
 from dacite import from_dict
 import json
 import os
+from typing import List
 
 @dataclass
 class PropertyFileConfig:
     """The configuration for the property file"""
     # Properties expected extensions
-    properties_expected_extensions: dict[str, list[str]]
+    properties_expected_extensions: dict[str, List[str]]
     # Excluded paths (regex or not)
     excluded_pack_paths: list[str]
     # Non path properties

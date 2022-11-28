@@ -115,7 +115,7 @@ def format():
 # Actions that can be performed
 actions = {
     "repair": repair,
-    "comment": None,
+    "comment": comment,
     "analyse": analyse
 }
 
