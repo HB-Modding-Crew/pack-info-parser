@@ -104,6 +104,9 @@ def repair():
     # Zip resource pack
     zip()
 
+def comment():
+    pass
+
 
 # Format the resource pack
 def format():
@@ -112,7 +115,7 @@ def format():
 # Actions that can be performed
 actions = {
     "repair": repair,
-    "format": None,
+    "comment": None,
     "analyse": analyse
 }
 

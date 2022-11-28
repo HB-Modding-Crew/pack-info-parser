@@ -28,4 +28,8 @@ Réparation de pack:
 ```
 python3 main.py repair -p <pathToPack>
 ```
+Ajout des commentaires (commandes de gives) dans les fichiers:
+```
+python3 main.py comment -p <pathToPack>
+```
 
